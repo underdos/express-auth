@@ -12,11 +12,13 @@ router.post('/login', function(req, res, next) {
     data: {
       name: 'Kusnadi',
       email: 'kus.underdos@gmail.com',
-      phone: '085780621341'
+      phone: '028348388328',
+      address: 'Bogor Boulevard'
     }
   }
 
   res.send(result);
 })
+
 
 module.exports = router;
